@@ -935,7 +935,7 @@ footer p {
 }
 
 .resume-section {
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.75rem;
 }
 
 .resume-section h2 {
@@ -987,7 +987,7 @@ footer p {
 }
 
 .experience-item {
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.2rem;
 }
 
 .experience-item h3 {
@@ -1094,7 +1094,7 @@ footer p {
     
     .resume-section {
         margin-bottom: 0.5rem;
-        page-break-inside: avoid;
+        page-break-inside: auto;
     }
     
     .resume-section h2 {
@@ -1121,8 +1121,8 @@ footer p {
     }
     
     .experience-item {
-        page-break-inside: avoid;
-        margin-bottom: 0.2rem;
+        page-break-inside: auto;
+        margin-bottom: 0.15rem;
     }
     
     .experience-item h3 {
