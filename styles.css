@@ -257,15 +257,37 @@ body:not([data-theme]) .moon-icon {
 
 .hero-stats {
     display: flex;
-    justify-content: center;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 2rem;
     margin-bottom: 3rem;
     animation: fadeInUp 0.8s ease 0.4s both;
+}
+
+.stat-category {
+    background: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+.stat-category-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
     flex-wrap: wrap;
 }
 
 .stat {
     text-align: center;
+    min-width: 120px;
 }
 
 .stat-number {
@@ -835,7 +857,15 @@ footer p {
     }
 
     .hero-stats {
+        gap: 1.5rem;
+    }
+
+    .stat-row {
         gap: 2rem;
+    }
+
+    .stat-category {
+        padding: 1.25rem;
     }
 
     .stat-number {
@@ -883,8 +913,23 @@ footer p {
     }
 
     .hero-stats {
-        flex-direction: column;
         gap: 1.5rem;
+    }
+
+    .stat-row {
+        gap: 1.5rem;
+    }
+
+    .stat {
+        min-width: 100px;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-label {
+        font-size: 0.75rem;
     }
 
     .btn {
