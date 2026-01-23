@@ -215,7 +215,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe all sections and cards in portfolio view
-document.querySelectorAll('#portfolio-view .section, #portfolio-view .education-card, #portfolio-view .honor-card, #portfolio-view .award-item, #portfolio-view .experience-card, #portfolio-view .timeline-item, #portfolio-view .activity-card, #portfolio-view .skill-category, #portfolio-view .contact-card').forEach(el => {
+document.querySelectorAll('#portfolio-view .section, #portfolio-view .education-card, #portfolio-view .honor-card, #portfolio-view .award-item, #portfolio-view .experience-card, #portfolio-view .timeline-item, #portfolio-view .activity-card, #portfolio-view .skill-category, #portfolio-view .contact-card, #portfolio-view .endorsement-card').forEach(el => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(20px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
