@@ -301,6 +301,7 @@ body:not([data-theme]) .moon-icon {
     text-align: center;
 }
 
+
 @keyframes fadeInScale {
     0% {
         opacity: 0;
